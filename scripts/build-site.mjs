@@ -159,6 +159,7 @@ const installCmd = (e) => {
 }
 const inlineByLoc = Object.fromEntries(LOCALES.map((loc) => [loc.code, JSON.stringify({
   code: loc.code,
+  base: ORIGIN,
   urlPath: loc.urlPath,
   copyLabel: loc.COPY_LABEL,
   copyText: loc.COPY_TEXT,

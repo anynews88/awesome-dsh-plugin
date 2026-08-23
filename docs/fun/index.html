@@ -628,7 +628,7 @@ function renderRegistry(data) {
     const c = cats[id] || {};
     const sec = document.createElement('li');
     sec.className = 'sec'; sec.dataset.sec = id;
-    sec.innerHTML = `<h2 id="${id}"><a href="${esc(data.urlPath)}${id}/"><span class="em">${esc(c.emoji || '')}</span><span class="names"><span class="zh">${esc(c.zh)}</span><span class="en">${esc(c.en)}</span></span></a> <small>${group.length}</small></h2>`;
+    sec.innerHTML = `<h2 id="${id}"><a href="${esc(data.base)}${esc(data.urlPath)}${id}/"><span class="em">${esc(c.emoji || '')}</span><span class="names"><span class="zh">${esc(c.zh)}</span><span class="en">${esc(c.en)}</span></span></a> <small>${group.length}</small></h2>`;
     dex.appendChild(sec);
     for (const p of group) {
       idx++;
