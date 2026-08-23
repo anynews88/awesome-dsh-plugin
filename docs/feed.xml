@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>森森 AI 笔记 · DeepSeek Harness（dsh）插件精选</title>
+  <id>https://anynews88.github.io/awesome-ash-plugin/</id>
+  <link href="https://anynews88.github.io/awesome-ash-plugin/"/>
+  <link rel="self" href="https://anynews88.github.io/awesome-ash-plugin/feed.xml"/>
+  <updated>2026-08-22T00:00:00Z</updated>
+  <entry>
+    <title>chenzhi-clude/dsh-hooks-pack</title>
+    <id>https://github.com/chenzhi-clude/dsh-hooks-pack</id>
+    <link href="https://github.com/chenzhi-clude/dsh-hooks-pack"/>
+    <updated>2026-08-22T00:00:00Z</updated>
+    <summary>一键启用 Claude Code / Codex hooks：自动发现已有 ~/.claude、~/.codex hook 配置并跑在官方桥接插件上，显式注入沙箱策略，hook 命令不再静默失效。</summary>
+  </entry>
+  <entry>
+    <title>bunipai/dsh-fare-meter</title>
+    <id>https://github.com/bunipai/dsh-fare-meter</id>
+    <link href="https://github.com/bunipai/dsh-fare-meter"/>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <summary>出租车计价器式实时计费：生成时逐秒跳动、空闲归零，内置官方峰谷时段与价格表。</summary>
+  </entry>
+  <entry>
+    <title>whateverboy2333/dsh-flat-teams</title>
+    <id>https://github.com/whateverboy2333/dsh-flat-teams</id>
+    <link href="https://github.com/whateverboy2333/dsh-flat-teams"/>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <summary>无队长扁平 Agent 团队：跨窗口结构化任务派发（状态机 + 事件流 + 离线唤醒）、记录员进展服务与 Web 两级看板。</summary>
+  </entry>
+  <entry>
+    <title>bunipai/dsh-balance-guard</title>
+    <id>https://github.com/bunipai/dsh-balance-guard</id>
+    <link href="https://github.com/bunipai/dsh-balance-guard"/>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <summary>实时余额胶囊：余额不足自动变橙并触发标题与系统通知。</summary>
+  </entry>
+  <entry>
+    <title>dsh-plugin-hub</title>
+    <id>https://github.com/Noob-stupid/dsh-plugin-hub</id>
+    <link href="https://github.com/Noob-stupid/dsh-plugin-hub"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <summary>DSH 插件管理面板：一键启停 + 多源市场（GitHub/Gitee/自定义）+ 静态索引市场（500+ 插件 / 300 技能）+ 技能安装/停用 + 套装一键装配 + 框架升级适配。</summary>
+  </entry>
+  <entry>
+    <title>Renzic-Stone/DSH-EasyRewrite</title>
+    <id>https://github.com/Renzic-Stone/DSH-EasyRewrite</id>
+    <link href="https://github.com/Renzic-Stone/DSH-EasyRewrite"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <summary>DSH Web 用户消息气泡内联编辑与撤回：惰性提交、无痕替换、版本翻页器、草稿自动备份、三语 i18n。</summary>
+  </entry>
+  <entry>
+    <title>JxaMe/dsh-condense</title>
+    <id>https://github.com/JxaMe/dsh-condense</id>
+    <link href="https://github.com/JxaMe/dsh-condense"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <summary>token 优化插件：屏蔽低信号读取、压缩大输出、哈希去重、smart_read 骨架化（tree-sitter）、BM25 检索，真实用量统计 + 持久化；入历史前削减，不破坏缓存命中。</summary>
+  </entry>
+  <entry>
+    <title>sandbaseai/dsh-plugin-store</title>
+    <id>https://github.com/sandbaseai/dsh-plugin-store</id>
+    <link href="https://github.com/sandbaseai/dsh-plugin-store"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <summary>DSH 设置页原生插件市场，支持社区目录搜索、标签筛选、插件安装和已安装包查看。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-composer-history</title>
+    <id>https://github.com/PerryLink/dsh-composer-history</id>
+    <link href="https://github.com/PerryLink/dsh-composer-history"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>网页输入区的终端式输入历史：方向键精确还原草稿/光标，Ctrl+R 反搜，工作区级回忆，感知滑动上下文。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-output-styles</title>
+    <id>https://github.com/PerryLink/dsh-output-styles</id>
+    <link href="https://github.com/PerryLink/dsh-output-styles"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>运行时切换模型输出风格（对齐 Claude Code outputStyles），含 output.render.* 呈现协议与 /style 命令。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-session-pin</title>
+    <id>https://github.com/PerryLink/dsh-session-pin</id>
+    <link href="https://github.com/PerryLink/dsh-session-pin"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>置顶会话与工作区到侧边栏：逐置顶行配色、看板/标签/已存视图、健康摘要与 /goto。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-talk</title>
+    <id>https://github.com/PerryLink/dsh-talk</id>
+    <link href="https://github.com/PerryLink/dsh-talk"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>语音优先会话回路：输入区麦克风（浏览器/本地语音识别），speak 工具语音播报，事件播报与说话打断。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-checkpoint-rewind</title>
+    <id>https://github.com/PerryLink/dsh-checkpoint-rewind</id>
+    <link href="https://github.com/PerryLink/dsh-checkpoint-rewind"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>DSH 版 Claude Code /rewind：git 优先工作区快照 + 轮边界会话 fork + /checkpoint、/rewind 一键恢复。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-claude-move</title>
+    <id>https://github.com/PerryLink/dsh-claude-move</id>
+    <link href="https://github.com/PerryLink/dsh-claude-move"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>四源迁移向导：把 Claude Code、Codex、OpenCode、Hermes 的会话、记忆、技能、斜杠命令搬进 DSH 并可续跑。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-session-sync</title>
+    <id>https://github.com/PerryLink/dsh-session-sync</id>
+    <link href="https://github.com/PerryLink/dsh-session-sync"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>会话跨设备同步：专用 git 镜像 + append-only 三方合并（keep-both + fork 冲突解决），/sync 命令与自动推拉。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-auto-review</title>
+    <id>https://github.com/PerryLink/dsh-auto-review</id>
+    <link href="https://github.com/PerryLink/dsh-auto-review"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>审批链上的第二模型自动审查：只读审查子代理返回带理由的 allow/deny 结构化裁决，fail-closed 兜底。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-budget</title>
+    <id>https://github.com/PerryLink/dsh-budget</id>
+    <link href="https://github.com/PerryLink/dsh-budget"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>成本治理：按模型/会话/日聚合 token 与成本计量，预算上限 + 阈值告警 + alert/block/degrade 超限策略，/budget 命令。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-click</title>
+    <id>https://github.com/PerryLink/dsh-click</id>
+    <link href="https://github.com/PerryLink/dsh-click"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>跨平台原生桌面控制（Windows 优先）：截图/读屏/点击/输入/滚轮/按键/应用启动，变更动作全过审批门。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-defend</title>
+    <id>https://github.com/PerryLink/dsh-defend</id>
+    <link href="https://github.com/PerryLink/dsh-defend"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>提示注入/越狱/密钥泄露检测：Aho-Corasick 引擎在用户消息、工具参数、工具结果三道缝上 allow/ask/block 拦截。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-draw</title>
+    <id>https://github.com/PerryLink/dsh-draw</id>
+    <link href="https://github.com/PerryLink/dsh-draw"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>统一静态图像生成路由：一个 image_generate 工具接 OpenAI 兼容引擎（OpenAI Images、智谱 CogView 等），健康感知回退 + 会话配额。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-library</title>
+    <id>https://github.com/PerryLink/dsh-library</id>
+    <link href="https://github.com/PerryLink/dsh-library"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>本地文档知识库：语义+关键词混合检索、多样性重排、引用感知注入，SQLite 索引，零模型下载。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-mask</title>
+    <id>https://github.com/PerryLink/dsh-mask</id>
+    <link href="https://github.com/PerryLink/dsh-mask"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>PII 脱敏中间件：姓名/电话/身份证/银行卡等在到达模型前匿名化为占位符，展示层还原，绝不记录明文。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-permission-rules</title>
+    <id>https://github.com/PerryLink/dsh-permission-rules</id>
+    <link href="https://github.com/PerryLink/dsh-permission-rules"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>声明式 allow/deny/ask 权限规则 + Codex 式进程级网络策略（内置本地 HTTP/CONNECT 代理），全量审计 + 规则热重载。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-score</title>
+    <id>https://github.com/PerryLink/dsh-score</id>
+    <link href="https://github.com/PerryLink/dsh-score"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>插件多维质量评分：安装成功/维护/文档/安全/协议合规五维，真实 CLI 证据 + 审计时间戳，产出 JSON/Markdown 榜单。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-test-drive</title>
+    <id>https://github.com/PerryLink/dsh-test-drive</id>
+    <link href="https://github.com/PerryLink/dsh-test-drive"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>插件隔离安装冒烟试驾：一次性 DSH_HOME profile 内安装+校验+启动，产出结构化通过/失败矩阵。</summary>
+  </entry>
+  <entry>
+    <title>dream-num/dsh-univer-office</title>
+    <id>https://github.com/dream-num/dsh-univer-office</id>
+    <link href="https://github.com/dream-num/dsh-univer-office"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>在 DeepSeek Harness 中创建、编辑、检查和交付表格、文档、演示文稿、多维表格和画布，支持实时预览与 worktree 审阅。</summary>
+  </entry>
+  <entry>
+    <title>maddogfinance/dsh-trading</title>
+    <id>https://github.com/maddogfinance/dsh-trading</id>
+    <link href="https://github.com/maddogfinance/dsh-trading"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>只读交易研究工作台：类型化行情数据接缝（可自带数据源）、多周期指标 regime 快照、dsh web 交互式 K 线卡（AI 标注需引用依据并经真实 K 线区间校验）、结构性禁止下单的 risk-guard。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-background-agents</title>
+    <id>https://github.com/PerryLink/dsh-background-agents</id>
+    <link href="https://github.com/PerryLink/dsh-background-agents"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>可续跑的后台子代理 + 持久多代理团队房间：消息总线、共享任务板、审批门交接，跨重启存活。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-plugin-guide</title>
+    <id>https://github.com/PerryLink/dsh-plugin-guide</id>
+    <link href="https://github.com/PerryLink/dsh-plugin-guide"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>插件开发知识库打包为按需加载的 agent 技能：官方约束、任务工作流、API 参考与社区踩坑。</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-skill-pack-security</title>
+    <id>https://github.com/PerryLink/dsh-skill-pack-security</id>
+    <link href="https://github.com/PerryLink/dsh-skill-pack-security"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>安全审计技能包 + plugin_vet 供应链门禁：八个双语技能 + 自动化预安装扫描器。</summary>
+  </entry>
+</feed>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>森森 AI 笔记 · DeepSeek Harness (dsh) Plugin Curations</title>
+  <id>https://anynews88.github.io/awesome-ash-plugin/en/</id>
+  <link href="https://anynews88.github.io/awesome-ash-plugin/en/"/>
+  <link rel="self" href="https://anynews88.github.io/awesome-ash-plugin/en/feed.xml"/>
+  <updated>2026-08-22T00:00:00Z</updated>
+  <entry>
+    <title>chenzhi-clude/dsh-hooks-pack</title>
+    <id>https://github.com/chenzhi-clude/dsh-hooks-pack</id>
+    <link href="https://github.com/chenzhi-clude/dsh-hooks-pack"/>
+    <updated>2026-08-22T00:00:00Z</updated>
+    <summary>One-click Claude Code &amp; Codex hooks: auto-discovers your existing ~/.claude / ~/.codex hook config and runs it on the official bridge plugins, with an explicit sandbox-policy shim so hook commands never die silently.</summary>
+  </entry>
+  <entry>
+    <title>bunipai/dsh-fare-meter</title>
+    <id>https://github.com/bunipai/dsh-fare-meter</id>
+    <link href="https://github.com/bunipai/dsh-fare-meter"/>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <summary>Taxi-meter style real-time cost: ticks every half second while generating, resets when idle, with official peak/valley pricing built in.</summary>
+  </entry>
+  <entry>
+    <title>whateverboy2333/dsh-flat-teams</title>
+    <id>https://github.com/whateverboy2333/dsh-flat-teams</id>
+    <link href="https://github.com/whateverboy2333/dsh-flat-teams"/>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <summary>Leaderless flat agent teams: cross-window structured task dispatch (state machine + event stream + offline resume), a read-only progress recorder, and a two-level web dashboard.</summary>
+  </entry>
+  <entry>
+    <title>bunipai/dsh-balance-guard</title>
+    <id>https://github.com/bunipai/dsh-balance-guard</id>
+    <link href="https://github.com/bunipai/dsh-balance-guard"/>
+    <updated>2026-08-21T00:00:00Z</updated>
+    <summary>Live balance pill that turns orange and raises title and system alerts when the balance runs low.</summary>
+  </entry>
+  <entry>
+    <title>dsh-plugin-hub</title>
+    <id>https://github.com/Noob-stupid/dsh-plugin-hub</id>
+    <link href="https://github.com/Noob-stupid/dsh-plugin-hub"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <summary>DSH plugin manager panel: one-click enable/disable of installed plugins, multi-source market (GitHub/Gitee/custom), static-index market (500+ plugins / 300 skills), skill install/disable, one-click bundle assembly, and framework upgrade adaptation.</summary>
+  </entry>
+  <entry>
+    <title>Renzic-Stone/DSH-EasyRewrite</title>
+    <id>https://github.com/Renzic-Stone/DSH-EasyRewrite</id>
+    <link href="https://github.com/Renzic-Stone/DSH-EasyRewrite"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <summary>In-bubble inline edit and recall for user messages in DSH Web: lazy commit, seamless replacement, a version pager, draft auto-backup, and trilingual i18n.</summary>
+  </entry>
+  <entry>
+    <title>JxaMe/dsh-condense</title>
+    <id>https://github.com/JxaMe/dsh-condense</id>
+    <link href="https://github.com/JxaMe/dsh-condense"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <summary>Token optimizer for DSH: blocks low-signal reads, compresses oversized outputs, hash-dedupes repeated calls, smart_read skeletonization (tree-sitter), BM25 retrieval; real usage metering + persistence. Pre-history pruning keeps prompt-cache hits.</summary>
+  </entry>
+  <entry>
+    <title>sandbaseai/dsh-plugin-store</title>
+    <id>https://github.com/sandbaseai/dsh-plugin-store</id>
+    <link href="https://github.com/sandbaseai/dsh-plugin-store"/>
+    <updated>2026-08-20T00:00:00Z</updated>
+    <summary>Native DSH Settings marketplace for community catalog search, tag filtering, plugin installation, and installed-package review.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-composer-history</title>
+    <id>https://github.com/PerryLink/dsh-composer-history</id>
+    <link href="https://github.com/PerryLink/dsh-composer-history"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Terminal-style input history for the Web composer: arrow keys restore drafts/cursor position exactly, Ctrl+R reverse search, workspace-scoped recall with sliding-context awareness.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-output-styles</title>
+    <id>https://github.com/PerryLink/dsh-output-styles</id>
+    <link href="https://github.com/PerryLink/dsh-output-styles"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Runtime-switchable model output styles (aligned with Claude Code outputStyles), with the output.render.* presentation protocol and a /style command.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-session-pin</title>
+    <id>https://github.com/PerryLink/dsh-session-pin</id>
+    <link href="https://github.com/PerryLink/dsh-session-pin"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Pin sessions and workspaces to the sidebar: per-pin row colors, board/tag/saved views, health summaries, and /goto.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-talk</title>
+    <id>https://github.com/PerryLink/dsh-talk</id>
+    <link href="https://github.com/PerryLink/dsh-talk"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Voice-first conversation loop: a composer microphone (browser/local speech recognition), a speak tool for spoken replies, event announcements, and barge-in.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-checkpoint-rewind</title>
+    <id>https://github.com/PerryLink/dsh-checkpoint-rewind</id>
+    <link href="https://github.com/PerryLink/dsh-checkpoint-rewind"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Claude Code /rewind for DSH: git-first workspace snapshots plus per-turn session forks, with one-click restore via /checkpoint and /rewind.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-claude-move</title>
+    <id>https://github.com/PerryLink/dsh-claude-move</id>
+    <link href="https://github.com/PerryLink/dsh-claude-move"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Four-source migration wizard: move sessions, memory, skills, and slash commands from Claude Code, Codex, OpenCode, and Hermes into DSH and keep working.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-session-sync</title>
+    <id>https://github.com/PerryLink/dsh-session-sync</id>
+    <link href="https://github.com/PerryLink/dsh-session-sync"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Cross-device session sync: a dedicated git mirror with append-only three-way merging (keep-both + fork conflict resolution), a /sync command, and automatic push/pull.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-auto-review</title>
+    <id>https://github.com/PerryLink/dsh-auto-review</id>
+    <link href="https://github.com/PerryLink/dsh-auto-review"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Second-model auto-review on the approval chain: a read-only reviewer subagent returns structured allow/deny verdicts with reasons, fail-closed by default.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-budget</title>
+    <id>https://github.com/PerryLink/dsh-budget</id>
+    <link href="https://github.com/PerryLink/dsh-budget"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Cost governance: token and cost metering aggregated by model/session/day, with budget caps, threshold alerts, and alert/block/degrade over-limit policies via the /budget command.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-click</title>
+    <id>https://github.com/PerryLink/dsh-click</id>
+    <link href="https://github.com/PerryLink/dsh-click"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Cross-platform native desktop control (Windows-first): screenshots, screen reading, click, input, scroll, keys, and app launching — every mutating action goes through an approval gate.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-defend</title>
+    <id>https://github.com/PerryLink/dsh-defend</id>
+    <link href="https://github.com/PerryLink/dsh-defend"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Prompt-injection, jailbreak, and secret-leak detection: an Aho-Corasick engine interposes allow/ask/block at three seams — user messages, tool arguments, and tool results.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-draw</title>
+    <id>https://github.com/PerryLink/dsh-draw</id>
+    <link href="https://github.com/PerryLink/dsh-draw"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Unified static-image generation routing: one image_generate tool over OpenAI-compatible engines (OpenAI Images, Zhipu CogView, etc.) with health-aware fallback and per-session quotas.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-library</title>
+    <id>https://github.com/PerryLink/dsh-library</id>
+    <link href="https://github.com/PerryLink/dsh-library"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Local document knowledge base: hybrid semantic + keyword retrieval, diversity reranking, citation-aware injection, SQLite index, zero model downloads.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-mask</title>
+    <id>https://github.com/PerryLink/dsh-mask</id>
+    <link href="https://github.com/PerryLink/dsh-mask"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>PII redaction middleware: names, phone numbers, ID cards, and bank cards are anonymized to placeholders before reaching the model and restored at the display layer; plaintext is never logged.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-permission-rules</title>
+    <id>https://github.com/PerryLink/dsh-permission-rules</id>
+    <link href="https://github.com/PerryLink/dsh-permission-rules"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Declarative allow/deny/ask permission rules plus Codex-style per-process network policy (with a built-in local HTTP/CONNECT proxy), full audit logging and hot rule reload.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-score</title>
+    <id>https://github.com/PerryLink/dsh-score</id>
+    <link href="https://github.com/PerryLink/dsh-score"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Multi-dimensional plugin quality scoring across five axes (install success, maintenance, docs, security, protocol compliance) with real CLI evidence, audit timestamps, and JSON/Markdown leaderboards.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-test-drive</title>
+    <id>https://github.com/PerryLink/dsh-test-drive</id>
+    <link href="https://github.com/PerryLink/dsh-test-drive"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Isolated install-and-smoke-test for plugins: install, validate, and boot inside a throwaway DSH_HOME profile, producing a structured pass/fail matrix.</summary>
+  </entry>
+  <entry>
+    <title>dream-num/dsh-univer-office</title>
+    <id>https://github.com/dream-num/dsh-univer-office</id>
+    <link href="https://github.com/dream-num/dsh-univer-office"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Create, edit, inspect, and deliver spreadsheets, documents, presentations, databases, and canvases in DeepSeek Harness, with live preview and worktree review.</summary>
+  </entry>
+  <entry>
+    <title>maddogfinance/dsh-trading</title>
+    <id>https://github.com/maddogfinance/dsh-trading</id>
+    <link href="https://github.com/maddogfinance/dsh-trading"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Read-only trading research workbench: a typed market-data seam (bring your own data source), multi-timeframe indicator regime snapshots, interactive candlestick cards in the dsh web UI (AI annotations require cited sources verified against real candle ranges), and a structurally order-blocking risk-guard.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-background-agents</title>
+    <id>https://github.com/PerryLink/dsh-background-agents</id>
+    <link href="https://github.com/PerryLink/dsh-background-agents"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Resumable background subagents plus persistent multi-agent team rooms: a message bus, shared task boards, and approval-gated handoffs that survive restarts.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-plugin-guide</title>
+    <id>https://github.com/PerryLink/dsh-plugin-guide</id>
+    <link href="https://github.com/PerryLink/dsh-plugin-guide"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>A plugin-development knowledge base packaged as on-demand agent skills: official constraints, task workflows, API references, and community gotchas.</summary>
+  </entry>
+  <entry>
+    <title>PerryLink/dsh-skill-pack-security</title>
+    <id>https://github.com/PerryLink/dsh-skill-pack-security</id>
+    <link href="https://github.com/PerryLink/dsh-skill-pack-security"/>
+    <updated>2026-08-19T00:00:00Z</updated>
+    <summary>Security-audit skill pack plus a plugin_vet supply-chain gate: eight bilingual skills and an automated pre-install scanner.</summary>
+  </entry>
+</feed>

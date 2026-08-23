@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anynews88.github.io/awesome-ash-plugin/sitemap.xml
