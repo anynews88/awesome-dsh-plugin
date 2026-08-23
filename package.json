@@ -2,10 +2,10 @@
   "name": "awesome-dsh-plugin",
   "version": "0.1.0",
   "description": "A curated list of DeepSeek Harness (dsh) plugins · DeepSeek Harness 插件精选列表",
-  "homepage": "https://anynews88.github.io/awesome-ash-plugin",
+  "homepage": "https://anynews88.github.io/awesome-dsh-plugin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anynews88/awesome-ash-plugin.git"
+    "url": "git+https://github.com/anynews88/awesome-dsh-plugin.git"
   },
   "license": "CC0-1.0",
   "files": ["README.md", "README.en.md"],

@@ -14,7 +14,7 @@ import fs from 'node:fs'
 import LOCALES from '../site/locales.mjs'
 import { CAT_IDS, cmpByKey, parseReadme } from './readme.mjs'
 
-const ORIGIN = 'https://anynews88.github.io/awesome-ash-plugin'
+const ORIGIN = 'https://anynews88.github.io/awesome-dsh-plugin'
 const DATES_FILE = 'data/added-dates.json'
 const NPM_MAP_FILE = 'data/npm-map.json'
 const STARS_FILE = 'data/stars.json'
@@ -90,7 +90,7 @@ function buildRows(loc, only) {
   return CAT_IDS.filter((id) => !only || id === only).map((id) => {
     const group = ordered.filter((e) => e.cat === id)
     if (!group.length) return ''
-    const sec = `    <li class="sec" data-sec="${id}"><h2 id="${id}"><a href="${loc.urlPath}${id}/"><span class="em">${CAT_EMOJI[id]}</span><span class="names"><span class="zh">${CAT_NAMES[id].zh}</span><span class="en">${CAT_NAMES[id].en}</span></span></a> <small>${group.length}</small></h2></li>`
+    const sec = `    <li class="sec" data-sec="${id}"><h2 id="${id}"><a href="${ORIGIN}${loc.urlPath}${id}/"><span class="em">${CAT_EMOJI[id]}</span><span class="names"><span class="zh">${CAT_NAMES[id].zh}</span><span class="en">${CAT_NAMES[id].en}</span></span></a> <small>${group.length}</small></h2></li>`
     const items = group.map((e) => {
       idx++
       const delay = Math.min(idx * 0.02, 0.4).toFixed(2)
@@ -243,7 +243,7 @@ for (const loc of LOCALES) {
       .replaceAll('__URL__', url)
       .replaceAll('__HREFLANGS__', catHreflangs)
       .replaceAll('__OG_IMAGE__', ORIGIN + loc.og)
-      .replaceAll('__LOCALE_LINKS__', LOCALES.filter((l) => l.code !== loc.code).map((l) => `<a class="lang-btn" href="${l.urlPath}${id}/" hreflang="${l.code}" rel="alternate">${l.label}</a>`).join('\n        '))
+      .replaceAll('__LOCALE_LINKS__', LOCALES.filter((l) => l.code !== loc.code).map((l) => `<a class="lang-btn" href="${ORIGIN}${l.urlPath}${id}/" hreflang="${l.code}" rel="alternate">${l.label}</a>`).join('\n        '))
       .replaceAll('__SEARCH_PH__', loc.SEARCH_PH)
       .replaceAll('__LANG_REDIRECT__', '')
       .replaceAll('__FEED__', ORIGIN + loc.feed)
@@ -283,7 +283,7 @@ ${recent.map((e) => `  <entry>
 const registry = {
   name: 'awesome-dsh-plugin',
   url: ORIGIN,
-  source: 'https://github.com/anynews88/awesome-ash-plugin',
+  source: 'https://github.com/anynews88/awesome-dsh-plugin',
   updated: [...ordered].map((e) => e.added).sort().pop(),
   count: N,
   categories: Object.fromEntries(CAT_IDS.map((id) => [id, Object.fromEntries(LOCALES.map((l) => [l.code, l.categories[id]]))])),

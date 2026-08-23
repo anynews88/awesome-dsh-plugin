@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>森森 AI 笔记 · DeepSeek Harness（dsh）插件精选</title>
-  <id>https://anynews88.github.io/awesome-ash-plugin/</id>
-  <link href="https://anynews88.github.io/awesome-ash-plugin/"/>
-  <link rel="self" href="https://anynews88.github.io/awesome-ash-plugin/feed.xml"/>
+  <id>https://anynews88.github.io/awesome-dsh-plugin/</id>
+  <link href="https://anynews88.github.io/awesome-dsh-plugin/"/>
+  <link rel="self" href="https://anynews88.github.io/awesome-dsh-plugin/feed.xml"/>
   <updated>2026-08-22T00:00:00Z</updated>
   <entry>
     <title>chenzhi-clude/dsh-hooks-pack</title>
