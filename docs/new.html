@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>森森 AI 笔记 · DeepSeek Harness 插件精选（413 个）</title>
+<meta name="description" content="由「森森 AI 笔记」维护的 DeepSeek Harness（dsh）插件精选列表：413 个插件、11 个分类、中英双语，每个插件附安装命令与仓库链接，持续更新。">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="森森 AI 笔记 · DeepSeek Harness 插件精选">
+<meta property="og:description" content="413 个 DeepSeek Harness（dsh）插件，11 个分类，中英双语，持续更新。">
+<meta property="og:url" content="https://anynews88.github.io/awesome-dsh-plugin/new.html">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#FAF9F6">
+<meta name="color-scheme" content="light">
+<style>
+:root{
+  --paper:#FAF9F6;
+  --paper-2:#F1EFE8;
+  --ink:rgba(0,0,0,.88);
+  --ink-2:rgba(0,0,0,.62);
+  --ink-3:rgba(0,0,0,.45);
+  --line:rgba(0,0,0,.12);
+  --indigo:#1A3A4A;
+  --indigo-2:#2C5668;
+  --moss:#3B7A57;
+  --moss-soft:#E4EEE7;
+  --accent:#C0392B;
+  --radius:12px;
+  --mono:"SF Mono", ui-monospace, Menlo, Monaco, "Roboto Mono", monospace;
+  --sans:-apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--sans);
+  background:var(--paper);
+  color:var(--ink);
+  font-size:16px;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+.wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+a{color:var(--indigo);text-decoration:none}
+a:hover{color:var(--accent)}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* ---------- 顶栏 ---------- */
+header.site{
+  position:sticky;top:0;z-index:50;
+  background:rgba(250,249,246,.92);
+  backdrop-filter:blur(8px);
+  border-bottom:0.5px solid var(--line);
+}
+.topline{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;font-size:15px}
+.brand img{width:26px;height:26px;border-radius:6px}
+.brand .en{color:var(--ink-3);font-size:12px;font-weight:400;letter-spacing:.02em}
+nav.main{display:flex;align-items:center;gap:6px}
+nav.main a{padding:6px 10px;border-radius:8px;font-size:14px;color:var(--ink-2)}
+nav.main a:hover{background:var(--paper-2);color:var(--ink)}
+nav.main .cta{background:var(--indigo);color:#fff;font-weight:500}
+nav.main .cta:hover{background:var(--indigo-2);color:#fff}
+
+/* ---------- Hero ---------- */
+.hero{padding:96px 0 72px}
+.hero-grid{display:grid;grid-template-columns:1.35fr .85fr;gap:56px;align-items:end}
+.eyebrow{
+  display:inline-block;font-size:13px;letter-spacing:.08em;
+  color:var(--moss);font-weight:500;margin-bottom:20px;
+  border:0.5px solid rgba(59,122,87,.35);padding:4px 12px;border-radius:999px;
+  background:var(--moss-soft);
+}
+h1.lead{
+  font-size:clamp(34px,5vw,54px);
+  font-weight:600;
+  line-height:1.22;
+  letter-spacing:-.01em;
+  max-width:15em;
+  text-wrap:balance;
+  margin-bottom:24px;
+}
+h1.lead .hl{color:var(--indigo)}
+.hero p.sub{
+  font-size:17px;color:var(--ink-2);max-width:34em;margin-bottom:36px;
+  text-wrap:pretty;
+}
+.actions{display:flex;gap:14px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:13px 22px;border-radius:10px;font-size:15px;font-weight:500;
+  transition:transform .15s ease, background-color .15s ease;
+}
+.btn.primary{background:var(--indigo);color:#fff}
+.btn.primary:hover{background:var(--indigo-2);color:#fff}
+.btn.ghost{border:0.5px solid var(--line);color:var(--ink)}
+.btn.ghost:hover{border-color:var(--ink-3);color:var(--ink)}
+.btn:active{transform:scale(.98)}
+
+/* Hero 右侧数据卡 */
+.metrics{
+  background:var(--indigo);color:#fff;
+  border-radius:var(--radius);
+  padding:28px 26px;
+}
+.metrics .m{display:flex;align-items:baseline;gap:12px;padding:14px 0;border-bottom:0.5px solid rgba(255,255,255,.14)}
+.metrics .m:last-child{border-bottom:none}
+.metrics .m b{font-size:34px;font-weight:600;font-family:var(--mono);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.metrics .m span{color:rgba(255,255,255,.72);font-size:14px}
+.metrics .note{margin-top:14px;font-size:12.5px;color:rgba(255,255,255,.55)}
+
+/* ---------- 分类总览 ---------- */
+.section{padding:72px 0}
+.section-head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:28px}
+.section-head h2{font-size:24px;font-weight:600;letter-spacing:-.01em}
+.section-head .more{font-size:14px;color:var(--ink-2)}
+.cats{border-top:0.5px solid var(--line)}
+.cat{
+  display:grid;grid-template-columns:56px 44px 1fr auto;
+  align-items:center;gap:16px;
+  padding:18px 8px;
+  border-bottom:0.5px solid var(--line);
+  transition:background-color .15s ease;
+}
+.cat:hover{background:var(--paper-2)}
+.cat .idx{font-family:var(--mono);font-size:13px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.cat .emoji{font-size:22px;line-height:1}
+.cat .names .zh{font-weight:600;font-size:16px}
+.cat .names .en{color:var(--ink-3);font-size:13px;margin-left:8px}
+.cat .count{font-family:var(--mono);font-size:14px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.cat .rep{font-size:13px;color:var(--ink-3);display:block;margin-top:2px}
+.cat .go{color:var(--ink-3);font-size:18px;transition:transform .15s ease}
+.cat:hover .go{color:var(--accent);transform:translateX(3px)}
+
+/* ---------- 精选 ---------- */
+.featured{background:var(--paper-2);border-radius:var(--radius);padding:28px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fcard{
+  display:block;background:var(--paper);
+  border:0.5px solid var(--line);border-radius:10px;
+  padding:18px 20px;
+  transition:border-color .15s ease, transform .15s ease;
+}
+.fcard:hover{border-color:var(--indigo-2);transform:translateY(-2px)}
+.fcard .row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.fcard h3{font-size:15px;font-weight:600;color:var(--ink);word-break:break-all}
+.fcard .st{font-size:12.5px;color:var(--moss);font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.fcard p{font-size:13.5px;color:var(--ink-2);margin-top:8px;line-height:1.6}
+.fcard .tag{display:inline-block;margin-top:12px;font-size:11.5px;color:var(--ink-3);border:0.5px solid var(--line);border-radius:999px;padding:2px 10px}
+
+/* ---------- 安装 ---------- */
+.install{background:var(--indigo);border-radius:var(--radius);color:#fff;padding:40px 36px}
+.install h2{font-size:22px;font-weight:600;margin-bottom:8px}
+.install p{color:rgba(255,255,255,.7);font-size:14.5px;max-width:46em;margin-bottom:22px}
+.install pre{
+  background:rgba(255,255,255,.08);
+  border:0.5px solid rgba(255,255,255,.16);
+  border-radius:10px;
+  padding:18px 20px;
+  font-family:var(--mono);font-size:13.5px;
+  overflow-x:auto;line-height:1.7;
+}
+.install pre .c{color:rgba(255,255,255,.5)}
+.install pre .cmd{color:#fff}
+.kbd{font-family:var(--mono);font-size:12.5px;background:rgba(255,255,255,.12);border-radius:6px;padding:2px 8px}
+
+/* ---------- 品牌尾区 ---------- */
+footer.site{padding:64px 0 80px;border-top:0.5px solid var(--line);margin-top:24px}
+.foot-grid{display:grid;grid-template-columns:1fr auto;gap:48px;align-items:start}
+.foot-brand .t{font-size:17px;font-weight:600;margin-bottom:8px}
+.foot-brand p{color:var(--ink-2);font-size:14px;max-width:32em}
+.foot-qr{text-align:center}
+.foot-qr img{width:120px;height:120px;border-radius:10px;border:0.5px solid var(--line)}
+.foot-qr .cap{font-size:13px;color:var(--ink-2);margin-top:8px}
+.foot-links{display:flex;gap:18px;margin-top:20px;font-size:14px;color:var(--ink-2)}
+.legal{margin-top:40px;padding-top:20px;border-top:0.5px solid var(--line);
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  font-size:12.5px;color:var(--ink-3)}
+.legal .credit{opacity:.75}
+
+@media (hover:hover) and (pointer:fine){
+  .btn:hover{transform:translateY(-1px)}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none !important;animation:none !important}
+  html{scroll-behavior:auto}
+}
+@media (max-width:820px){
+  .hero{padding:64px 0 48px}
+  .hero-grid{grid-template-columns:1fr;gap:40px}
+  .grid2{grid-template-columns:1fr}
+  .cat{grid-template-columns:44px 36px 1fr auto}
+  .foot-grid{grid-template-columns:1fr}
+  .foot-qr{text-align:left;display:flex;align-items:center;gap:16px}
+  nav.main a.hide-m{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap topline">
+    <a class="brand" href="https://anynews88.github.io/awesome-dsh-plugin/">
+      <img src="https://anynews88.github.io/awesome-dsh-plugin/logo.png" alt="森森 AI 笔记">
+      <span>森森 AI 笔记<span class="en">· Awesome DSH Plugin</span></span>
+    </a>
+    <nav class="main">
+      <a class="hide-m" href="https://anynews88.github.io/awesome-dsh-plugin/">完整列表</a>
+      <a class="hide-m" href="https://github.com/anynews88/awesome-dsh-plugin">GitHub ↗</a>
+      <a class="hide-m" href="https://anynews88.github.io/awesome-dsh-plugin/feed.xml">RSS</a>
+      <a href="https://anynews88.github.io/awesome-dsh-plugin/en/" class="cta">English</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">DeepSeek Harness · 插件精选</span>
+        <h1 class="lead">413 个插件，<br>一份值得信任的<span class="hl">精选</span></h1>
+        <p class="sub">由「森森 AI 笔记」持续维护的 DeepSeek Harness（dsh）插件中英双语列表。11 个分类覆盖 UI、主题、记忆、工具、技能包、工作流与娱乐，每个插件都附安装命令与仓库链接。收录经人工筛选，描述只讲功能。</p>
+        <div class="actions">
+          <a class="btn primary" href="https://anynews88.github.io/awesome-dsh-plugin/">浏览完整列表 →</a>
+          <a class="btn ghost" href="https://github.com/anynews88/awesome-dsh-plugin#贡献">收录你的插件</a>
+        </div>
+      </div>
+      <aside class="metrics">
+        <div class="m"><b>413</b><span>个插件</span></div>
+        <div class="m"><b>11</b><span>个分类</span></div>
+        <div class="m"><b>2</b><span>种语言（中 / 英）</span></div>
+        <div class="m"><b>∞</b><span>持续更新</span></div>
+        <p class="note">数据来自 docs/plugins.json，随收录实时同步</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" id="categories">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>按分类浏览</h2>
+        <a class="more" href="https://anynews88.github.io/awesome-dsh-plugin/">查看全部 413 个 →</a>
+      </div>
+      <div class="cats">
+
+        <a class="cat" href="https://anynews88.github.io/awesome-dsh-plugin/tools/">
+          <span class="idx">01</span><span class="emoji">🛠️</span>
+          <span class="names"><span class="zh">工具与能力</span><span class="en">Tools &amp; Capabilities</span>
+            <span class="rep">代表：modlens · 2637★ · 视觉桥接</span></span>
+          <span class="count">114 个</span><span class="go">→</span>
+        </a>
+
+        <a class="cat" href="https://anynews88.github.io/awesome-dsh-plugin/ui/">
+          <span class="idx">02</span><span class="emoji">🎨</span>
+          <span class="names"><span class="zh">UI 增强</span><span class="en">UI Enhancements</span>
+            <span class="rep">代表：dsh-web-ui · 3874★ · 任务看板与皮肤中心</span></span>
+          <span class="count">74 个</span><span class="go">→</span>
+        </a>
+
+        <a class="cat" href="https://anynews88.github.io/awesome-dsh-plugin/dev/">
+          <span class="idx">03</span><span class="emoji">🧑‍💻</span>
+          <span class="names"><span class="zh">开发与运行时</span><span class="en">Development &amp; Runtime</span>
+            <span class="rep">代表：oh-dsh · 236★ · 社区发行版</span></span>
+          <span class="count">60 个</span><span class="go">→</span>
+        </a>
+
+        <a class="cat" href="https://anynews88.github.io/awesome-dsh-plugin/workflow/">
+          <span class="idx">04</span><span class="emoji">🔁</span>
+          <span class="names"><span class="zh">工作流与自动化</span><span class="en">Workflow &amp; Automation</span>
+            <span class="rep">代表：dsh-agent-teams · 466★ · 多智能体团队</span></span>
+          <span class="count">32 个</span><span class="go">→</span>
+        </a>
+
+        <a class="cat" href="https://anynews88.github.io/awesome-dsh-plugin/memory/">
+          <span class="idx">05</span><span class="emoji">🧠</span>
+          <span class="names"><span class="zh">记忆</span><span class="en">Memory</span>
+            <span class="rep">代表：dsh-context · 172★ · 上下文洞察面板</span></span>
+          <span class="count">29 个</span><span class="go">→</span>
+        </a>
+
+        <a class="cat" href="https://anynews88.github.io/awesome-dsh-plugin/notify/">
+          <span class="idx">06</span><span class="emoji">🔔</span>
+          <span class="names"><span class="zh">通知与集成</span><span class="en">Notifications &amp; Integrations</span>
+            <span class="rep">代表：dsh-notification · 57★ · 回合完成通知</span></span>
+          <span class="count">23 个</span><span class="go">→</span>
+        </a>
+
+        <a class="cat" href="https://anynews88.github.io/awesome-dsh-plugin/fun/">
+          <span class="idx">07</span><span class="emoji">🎮</span>
+          <span class="names"><span class="zh">娱乐</span><span class="en">Just for Fun</span>
+            <span class="rep">代表：dsh-ads · 477★ · 2005 风格整活广告</span></span>
+          <span class="count">22 个</span><span class="go">→</span>
+        </a>
+
+        <a class="cat" href="https://anynews88.github.io/awesome-dsh-plugin/session/">
+          <span class="idx">08</span><span class="emoji">💬</span>
+          <span class="names"><span class="zh">会话与消息</span><span class="en">Sessions &amp; Messages</span>
+            <span class="rep">代表：dsh-turn-rewind · 70★ · 对话回退</span></span>
+          <span class="count">21 个</span><span class="go">→</span>
+        </a>
+
+        <a class="cat" href="https://anynews88.github.io/awesome-dsh-plugin/theme/">
+          <span class="idx">09</span><span class="emoji">🎭</span>
+          <span class="names"><span class="zh">主题与外观</span><span class="en">Themes &amp; Appearance</span>
+            <span class="rep">代表：dsh-deep-whale · 1190★ · 鲸鱼娘皮肤</span></span>
+          <span class="count">16 个</span><span class="go">→</span>
+        </a>
+
+        <a class="cat" href="https://anynews88.github.io/awesome-dsh-plugin/skill/">
+          <span class="idx">10</span><span class="emoji">🧩</span>
+          <span class="names"><span class="zh">技能包</span><span class="en">Skills</span>
+            <span class="rep">代表：dsh-reverse-skill · 25★ · 85 个 SKILL.md</span></span>
+          <span class="count">13 个</span><span class="go">→</span>
+        </a>
+
+        <a class="cat" href="https://anynews88.github.io/awesome-dsh-plugin/model/">
+          <span class="idx">11</span><span class="emoji">🔌</span>
+          <span class="names"><span class="zh">模型与账号接入</span><span class="en">Models &amp; Providers</span>
+            <span class="rep">代表：dsh-vision · 33★ · 视觉桥接 VLM</span></span>
+          <span class="count">9 个</span><span class="go">→</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="featured">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>社区最热</h2>
+        <a class="more" href="https://anynews88.github.io/awesome-dsh-plugin/">按 Star 排序查看全部 →</a>
+      </div>
+      <div class="featured">
+        <div class="grid2">
+
+          <a class="fcard" href="https://github.com/zhu1090093659/dsh-web-ui">
+            <div class="row"><h3>dsh-web-ui</h3><span class="st">3874★</span></div>
+            <p>DSH Web UI 插件与皮肤合集：任务看板、git 图、右侧面板、远程移动端 UI、桌宠、实时 token 统计与皮肤中心。</p>
+            <span class="tag">UI 增强</span>
+          </a>
+
+          <a class="fcard" href="https://github.com/liustack/modlens">
+            <div class="row"><h3>modlens</h3><span class="st">2637★</span></div>
+            <p>为纯文本模型架起视觉桥梁：粘贴图片，输出结构化 JSON 证据（OCR、版面、语义）。</p>
+            <span class="tag">工具与能力</span>
+          </a>
+
+          <a class="fcard" href="https://github.com/omdsh-dev/DSH-better-sidebar">
+            <div class="row"><h3>DSH-better-sidebar</h3><span class="st">1847★</span></div>
+            <p>侧边栏完整工作台：内置文件渲染编辑、终端、Git 与子代理，支持三方插件注册新面板。</p>
+            <span class="tag">UI 增强</span>
+          </a>
+
+          <a class="fcard" href="https://github.com/ccch1mneyyy/dsh-TUI">
+            <div class="row"><h3>dsh-TUI</h3><span class="st">1739★</span></div>
+            <p>Claude Code 风格全屏终端 UI：像素鲸鱼顶栏、实时工作状态行、思考流式展开。</p>
+            <span class="tag">UI 增强</span>
+          </a>
+
+          <a class="fcard" href="https://github.com/Small-tailqwq/dsh-deep-whale">
+            <div class="row"><h3>dsh-deep-whale</h3><span class="st">1190★</span></div>
+            <p>DSH Web 鲸鱼娘皮肤系列（深海女仆工坊 maid-atelier）。</p>
+            <span class="tag">主题与外观</span>
+          </a>
+
+          <a class="fcard" href="https://github.com/dsh-market/dsh-market">
+            <div class="row"><h3>dsh-market</h3><span class="st">754★</span></div>
+            <p>装在 DSH 里的插件市场：设置页内逛 / 搜全部社区插件，按分类筛选，确认后一键安装。</p>
+            <span class="tag">工具与能力</span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="install">
+    <div class="wrap">
+      <div class="install">
+        <h2>安装一个插件</h2>
+        <p>每个插件都支持两种来源：npm 预构建包（推荐，体积小、免构建），或 GitHub 源码（首次安装会请求构建授权）。命令复制自列表页，也可手动拼写。</p>
+        <pre><span class="c"># 从 npm 安装（预构建）</span>
+<span class="cmd">dsh plugin --profile web add &lt;npm-package&gt;</span>
+
+<span class="c"># 从 GitHub 源码安装（首次需按提示授权 allowBuilds 后重试）</span>
+<span class="cmd">dsh plugin --profile web add github:&lt;owner&gt;/&lt;repo&gt;</span></pre>
+        <p style="margin-top:22px;margin-bottom:0">安全提示：GitHub 来源的插件安装时会在本机执行构建脚本，请只安装可信来源，并尽量锁定 commit（<span class="kbd">github:owner/repo#sha</span>）。</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="t">森森 AI 笔记</div>
+        <p>记录 AI 工具链的一手观察。本列表收录 DeepSeek Harness 社区插件，人工筛选、双语维护、持续更新。与 DeepSeek 无隶属关系，收录不构成背书。</p>
+        <div class="foot-links">
+          <a href="https://anynews88.github.io/awesome-dsh-plugin/">完整列表</a>
+          <a href="https://anynews88.github.io/awesome-dsh-plugin/en/">English</a>
+          <a href="https://github.com/anynews88/awesome-dsh-plugin">GitHub</a>
+          <a href="https://anynews88.github.io/awesome-dsh-plugin/feed.xml">RSS</a>
+        </div>
+      </div>
+      <div class="foot-qr">
+        <img src="https://anynews88.github.io/awesome-dsh-plugin/qr-code.jpg" alt="森森 AI 笔记公众号二维码">
+        <div class="cap">扫码关注「森森 AI 笔记」</div>
+      </div>
+    </div>
+    <div class="legal">
+      <span>© 2026 森森 AI 笔记 · awesome-dsh-plugin</span>
+      <span class="credit">设计顾问 qiaomu-design</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
