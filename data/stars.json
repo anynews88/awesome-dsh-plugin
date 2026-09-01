@@ -512,10 +512,10 @@
   "checkedAt": "2026-08-17"
  },
  "https://github.com/dsh-external/dsh-feishu-notify": {
-  "stars": 1,
+  "stars": 2,
   "createdAt": "2026-08-07",
-  "etag": "W/\"41670c2208551b6630e2596ab0a61ebc63b9f6ef5cc6439df991e4ab507598af\"",
-  "checkedAt": "2026-08-25"
+  "etag": "W/\"b6c66d2ca8d7edb588a7343241448875f12bec1d56e0d3394aa6d3d42caa2df8\"",
+  "checkedAt": "2026-09-01"
  },
  "https://github.com/dsh-external/dsh-office": {
   "stars": null,
@@ -784,10 +784,10 @@
   "checkedAt": "2026-08-31"
  },
  "https://github.com/huchunlinnk/deepseek-desk-rsi": {
-  "stars": 1,
+  "stars": 2,
   "createdAt": "2026-08-18",
-  "etag": "W/\"0ba404c6fe6c8766bb1306931a065befd619c99e7097046bb4be6b97be81c0d7\"",
-  "checkedAt": "2026-08-25"
+  "etag": "W/\"7f07cd1a69fdaafb87f2c8f844a12b938c51b79ba0aab9847d9e31383ac838b2\"",
+  "checkedAt": "2026-09-01"
  },
  "https://github.com/huey1in/trio": {
   "stars": 19,
@@ -1112,10 +1112,10 @@
   "checkedAt": "2026-08-31"
  },
  "https://github.com/Juryorca/dsh-custom-theme-import": {
-  "stars": 1,
+  "stars": 2,
   "createdAt": "2026-08-16",
-  "etag": "W/\"c7ee9aa8d849fb85d5378db6beb264f8ff6fbf40542684b3c4a8a5e22ad04346\"",
-  "checkedAt": "2026-08-25"
+  "etag": "W/\"f573fbf78fab72134b0cf96927be8458292b202fa07c491529a3e895e4621236\"",
+  "checkedAt": "2026-09-01"
  },
  "https://github.com/JxaMe/dsh-condense": {
   "stars": 0,
@@ -1218,10 +1218,10 @@
   "checkedAt": "2026-08-31"
  },
  "https://github.com/Letter2025/dsh-task-worktree": {
-  "stars": 1,
+  "stars": 2,
   "createdAt": "2026-08-18",
-  "etag": "W/\"79c5a5d55453dca94a42345e5a67c05fcdeb9b50bb0428f643d68da5ddbed898\"",
-  "checkedAt": "2026-08-25"
+  "etag": "W/\"f740304cccc5689c5193a3fb028c800d109c12f16549d12259825af383516aa1\"",
+  "checkedAt": "2026-09-01"
  },
  "https://github.com/lhh010/dsh-minigames": {
   "stars": 27,
@@ -1362,10 +1362,10 @@
   "checkedAt": "2026-08-31"
  },
  "https://github.com/maddogfinance/dsh-trading": {
-  "stars": 18,
+  "stars": 26,
   "createdAt": "2026-08-17",
-  "etag": "W/\"cfbfac93126992a328f4e4fd433ffcaf89260cd66f6fb3dd6765f154012a3726\"",
-  "checkedAt": "2026-08-25"
+  "etag": "W/\"cc4ae317e1ecd954750e3c7e5a41dbbf78162c7e140c75be8f97472406eaa4c6\"",
+  "checkedAt": "2026-09-01"
  },
  "https://github.com/MAXeaglet/dsh-bash-terminal": {
   "stars": 19,
@@ -1888,10 +1888,10 @@
   "checkedAt": "2026-08-26"
  },
  "https://github.com/PGZXB/dsh-feishu": {
-  "stars": 25,
+  "stars": 26,
   "createdAt": "2026-08-14",
-  "etag": "W/\"f00517a500d1b5a848897bad635378a0c745ddfd516009ec6ab6b00f9e418d7c\"",
-  "checkedAt": "2026-08-25"
+  "etag": "W/\"97f02f3f26573e3b2b1b0d5ec819e0d14965d11229fe5f84cdbfaf90cb842093\"",
+  "checkedAt": "2026-09-01"
  },
  "https://github.com/Phant0Meow/dsh-memory-meow": {
   "stars": 63,
@@ -1918,10 +1918,10 @@
   "checkedAt": "2026-08-31"
  },
  "https://github.com/PolinniZhong/dsh-omi-voice": {
-  "stars": 46,
+  "stars": 79,
   "createdAt": "2026-08-18",
-  "etag": "W/\"556a6f7f49ce7a66e4fbe6ad0bbd6430c041655044c29783dd97abfc02d74de8\"",
-  "checkedAt": "2026-08-25"
+  "etag": "W/\"f5bfc518d44b5da128fa929e807424206997a28a8be73927c7f25caeb0f1fed7\"",
+  "checkedAt": "2026-09-01"
  },
  "https://github.com/qyw233/dsh-deeplink": {
   "stars": 4,
@@ -2280,10 +2280,10 @@
   "checkedAt": "2026-08-31"
  },
  "https://github.com/xiejianjun000/eco-dsh-plugins": {
-  "stars": 0,
+  "stars": 1,
   "createdAt": "2026-08-18",
-  "etag": "W/\"1093e37de14e7f947f071d02f1f9cd4516c43cc77804fad68e0af45b524229f1\"",
-  "checkedAt": "2026-08-25"
+  "etag": "W/\"446826eb3083f34fcdbda8a99bc0799022189a71c265c26da4245b3d4ba2ba9c\"",
+  "checkedAt": "2026-09-01"
  },
  "https://github.com/xingyingyuzhui/dsh-updater-ui": {
   "stars": 6,
@@ -2304,10 +2304,10 @@
   "checkedAt": "2026-08-31"
  },
  "https://github.com/yanglaofish/dsh-skill-manager": {
-  "stars": 0,
+  "stars": 1,
   "createdAt": "2026-08-18",
-  "etag": "W/\"0a482298b5ae0f0ca60125f82517c97006cea87459d1cbfc3c3c932055494582\"",
-  "checkedAt": "2026-08-25"
+  "etag": "W/\"3a3b03da794d6673301f026d3e2136a5586557d97b0b13b6aa230afe7fe39343\"",
+  "checkedAt": "2026-09-01"
  },
  "https://github.com/yangyunsong023/dsh-sxs-anti-bot-http": {
   "stars": 2,
