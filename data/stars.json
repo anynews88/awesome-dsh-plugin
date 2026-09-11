@@ -330,16 +330,16 @@
   "checkedAt": "2026-09-07"
  },
  "https://github.com/bunipai/dsh-balance-guard": {
-  "stars": 1,
+  "stars": 0,
   "createdAt": "2026-08-21",
-  "etag": "W/\"f036a93b288257f7b6327fc7a86ecd87c17cdbd0f33464bc691787974c899c7c\"",
-  "checkedAt": "2026-09-04"
+  "etag": "W/\"f854f4d80e818576944637570b5b8fb13c1059660b7c06526432144bb0426803\"",
+  "checkedAt": "2026-09-11"
  },
  "https://github.com/bunipai/dsh-fare-meter": {
-  "stars": 1,
+  "stars": 0,
   "createdAt": "2026-08-21",
-  "etag": "W/\"3310b318ed55a849f8557a879f189777f3eebc71c2fe6c7294c28e18628d264e\"",
-  "checkedAt": "2026-09-04"
+  "etag": "W/\"797186ef63625909da2af634687c815c73d8b8e2776fb9f6e979eea0e0ee9720\"",
+  "checkedAt": "2026-09-11"
  },
  "https://github.com/Buyi-wsgzg/dsh-sidechain": {
   "stars": 14,
@@ -2208,8 +2208,8 @@
  "https://github.com/whateverboy2333/dsh-flat-teams": {
   "stars": 2,
   "createdAt": "2026-08-21",
-  "etag": "W/\"8f0760a8422768fdabdb7bd55e9f13e3cbca0b0783991b9a9614fb0ef2c60bc3\"",
-  "checkedAt": "2026-09-04"
+  "etag": "W/\"56499a1ed252ffa0bf5155a12952c614b3ac696ca5ca9ac420b3c7b55da8cd55\"",
+  "checkedAt": "2026-09-11"
  },
  "https://github.com/william-jin-cmu/dsh-evolve": {
   "stars": 13,
