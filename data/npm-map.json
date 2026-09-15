@@ -25,7 +25,7 @@
  },
  "https://github.com/940842546/dsh-permissions": {
   "npm": null,
-  "checkedAt": "2026-08-16"
+  "checkedAt": "2026-09-15"
  },
  "https://github.com/940842546/dsh-usage-billing": {
   "npm": null,
@@ -249,7 +249,7 @@
  },
  "https://github.com/cdxiaodong/dsh-guardian": {
   "npm": null,
-  "checkedAt": "2026-08-16"
+  "checkedAt": "2026-09-15"
  },
  "https://github.com/cdxiaodong/dsh-island": {
   "npm": null,
@@ -393,7 +393,7 @@
  },
  "https://github.com/edfrey0044/dsh-unarchive": {
   "npm": null,
-  "checkedAt": "2026-08-16"
+  "checkedAt": "2026-09-15"
  },
  "https://github.com/EvilIrving/dsh-context-proxy": {
   "npm": null,
@@ -477,7 +477,7 @@
  },
  "https://github.com/gloryxpnv/dsh-tool-vision": {
   "npm": null,
-  "checkedAt": "2026-08-16"
+  "checkedAt": "2026-09-15"
  },
  "https://github.com/gongyijie85/dsh-ponytail": {
   "npm": "dsh-ponytail-skills",
@@ -592,8 +592,8 @@
   "checkedAt": "2026-08-17"
  },
  "https://github.com/JAdpp/dsh-whale-galgame": {
-  "npm": null,
-  "checkedAt": "2026-08-16"
+  "npm": "dsh-whale-galgame",
+  "checkedAt": "2026-09-15"
  },
  "https://github.com/Jayden-X-L/forkprobe": {
   "npm": null,
@@ -789,7 +789,7 @@
  },
  "https://github.com/lak321/dsh-filetree": {
   "npm": null,
-  "checkedAt": "2026-08-16"
+  "checkedAt": "2026-09-15"
  },
  "https://github.com/lak321/dsh-screen-agent": {
   "npm": null,
@@ -797,7 +797,7 @@
  },
  "https://github.com/lak321/dsh-voice-chat": {
   "npm": null,
-  "checkedAt": "2026-08-16"
+  "checkedAt": "2026-09-15"
  },
  "https://github.com/lancecheney/dsh-plugins/tree/main/packages/dsh-deepseek-balance": {
   "npm": null,
@@ -808,12 +808,12 @@
   "checkedAt": "2026-09-14"
  },
  "https://github.com/Laplace-bit/dsh-bell-notify": {
-  "npm": null,
-  "checkedAt": "2026-08-16"
+  "npm": "dsh-bell-notify",
+  "checkedAt": "2026-09-15"
  },
  "https://github.com/Laplace-bit/dsh-smooth-stream": {
-  "npm": null,
-  "checkedAt": "2026-08-16"
+  "npm": "dsh-smooth-stream",
+  "checkedAt": "2026-09-15"
  },
  "https://github.com/leechen298/Code2Skill": {
   "npm": null,
@@ -848,8 +848,8 @@
   "checkedAt": "2026-09-13"
  },
  "https://github.com/Liu-ZA-81/dsh-theme-firefly": {
-  "npm": null,
-  "checkedAt": "2026-08-16"
+  "npm": "dsh-theme-firefly",
+  "checkedAt": "2026-09-15"
  },
  "https://github.com/liustack/modlens": {
   "npm": "@liustack/modlens",
@@ -1364,8 +1364,8 @@
   "checkedAt": "2026-09-13"
  },
  "https://github.com/siweina/dsh-novel-writer": {
-  "npm": null,
-  "checkedAt": "2026-08-16"
+  "npm": "dsh-novel-writer",
+  "checkedAt": "2026-09-15"
  },
  "https://github.com/sjh9714/dsh-what-changed": {
   "npm": "dsh-what-changed",
@@ -1612,8 +1612,8 @@
   "checkedAt": "2026-08-17"
  },
  "https://github.com/Zhangbo-cn/dsh-voice-input-plugin": {
-  "npm": null,
-  "checkedAt": "2026-08-16"
+  "npm": "@zhangbo-cn/dsh-client-ui-voice-input",
+  "checkedAt": "2026-09-15"
  },
  "https://github.com/zhaoolee/notes": {
   "npm": null,
