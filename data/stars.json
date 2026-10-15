@@ -1458,10 +1458,10 @@
   "checkedAt": "2026-10-12"
  },
  "https://github.com/Noob-stupid/dsh-plugin-hub": {
-  "stars": 99,
+  "stars": 100,
   "createdAt": "2026-08-14",
-  "etag": "W/\"2fe88b45f8eb392e0329901ded22973652b6d06e60c677ccf1b8bf49b488418d\"",
-  "checkedAt": "2026-10-08"
+  "etag": "W/\"176a7e40d1b99781e6ea6ba6fdd5edfbfc702799c037eda1eec22be0ad3259a2\"",
+  "checkedAt": "2026-10-15"
  },
  "https://github.com/nowledge-co/nowledge-mem-deepseek-harness": {
   "stars": 8,
@@ -1936,10 +1936,10 @@
   "checkedAt": "2026-10-12"
  },
  "https://github.com/Renzic-Stone/DSH-EasyRewrite": {
-  "stars": 122,
+  "stars": 126,
   "createdAt": "2026-08-18",
-  "etag": "W/\"f0802d9f91a9097b330dde0c25367187fd4195a8a0c8e7e57d1db15e1d8819ea\"",
-  "checkedAt": "2026-10-08"
+  "etag": "W/\"9ea1611de16acf12f31a8d6e5484e929ea7a43f6c1ffc1925163f449d4359f18\"",
+  "checkedAt": "2026-10-15"
  },
  "https://github.com/RevolutionLA/dsh-dream-skin": {
   "stars": 227,
@@ -1968,8 +1968,8 @@
  "https://github.com/sandbaseai/dsh-plugin-store": {
   "stars": 3,
   "createdAt": "2026-08-17",
-  "etag": "W/\"52dc1ef4c0b22da16174d8032b96ade6a685e7174a962c1f2d053f51e2f1fb75\"",
-  "checkedAt": "2026-10-08"
+  "etag": "W/\"234ff38cc8f8187d0f1c7dd38b6d437caf9a18b2eae4ef48a8c1cf84247b886b\"",
+  "checkedAt": "2026-10-15"
  },
  "https://github.com/sandbaseai/sandbase-skills": {
   "stars": 202,
